@@ -27,4 +27,8 @@ h) 	Inheritance is when a class inherits properties (variables, functions, struc
 	Polymorphism allows a program to interpret children classes differently for different data types
 	Encapsulation is the concept of bundling data within a class or object
 
-i) 	testing
+i) 	In the dictator and lieutenant workflow, only the dictator can push to the central repo, while in integration workflow,
+		everybody can push and pull from the central repo
+
+j)	With that many people, it would be chaos if every developer was constantly pushing to the central repo. It would be much
+		better if only the person in charge (dictator) could push to the repo.
