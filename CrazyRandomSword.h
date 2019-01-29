@@ -12,7 +12,7 @@ using namespace std;
 class CrazyRandomSword : public Weapon {
 public:
 
-    CrazyRandomSword() : Weapon("Random sword", rand() % 93 + 7) {}
+    CrazyRandomSword() : Weapon("Random sword", (rand() % 93 + 7)) {}
 
     virtual ~CrazyRandomSword() {};
 
