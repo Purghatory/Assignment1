@@ -31,4 +31,8 @@ i) 	In the dictator and lieutenant workflow, only the dictator can push to the c
 		everybody can push and pull from the central repo
 
 j)	With that many people, it would be chaos if every developer was constantly pushing to the central repo. It would be much
-		better if only the person in charge (dictator) could push to the repo.
+		better if only the person in charge (dictator) could push to the central repo.
+
+
+5) 	This program has Polymorphism because the children classes interpret the different class types. It also uses
+		encapsulation because the children's data is built within their own class.
