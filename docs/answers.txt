@@ -1,1 +1,30 @@
+a)	Enumerating objects: 7, done.
+	Counting objects: 100% (7/7), done.
+	Delta compression using up to 4 threads
+	Compressing objects: 100% (3/3), done.
+	Writing objects: 100% (4/4), 412 bytes | 412.00 KiB/s, done.
+	Total 4 (delta 1), reused 0 (delta 0)
+	remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+	To https://github.com/Purghatory/Assignment1.git
+		ea0bd71..8bb01f9  master -> master
 
+b)	9
+	git rev-list --all --count
+
+c)  Thu Jan 10 16:45:38 2019
+	git log .gitignore
+
+d)	- different people can work on different aspects of the project without changing the master
+	- small tweaks can be developed separately and merged with the master once they're working
+
+e)	git-log shows the commit logs while git-status shows the whole working tree
+
+f)	git log Weapon.h
+
+g) 	git log --all --grep='file'
+
+h) 	Inheritance is when a class inherits properties (variables, functions, structures, etc.) from a parent class
+	Polymorphism allows a program to interpret children classes differently for different data types
+	Encapsulation is the concept of bundling data within a class or object
+
+i) 	
