@@ -1,0 +1,56 @@
+I didnt include the --no-ff flag when i merged the dev branch with the master, so here is my output from the git reflog --all command:
+
+  ce94c9f (HEAD -> master, origin/master, origin/HEAD) HEAD@{0}: checkout: moving from master to master
+  ce94c9f (HEAD -> master, origin/master, origin/HEAD) refs/remotes/origin/master@{0}: update by push
+  ce94c9f (HEAD -> master, origin/master, origin/HEAD) refs/heads/master@{0}: commit: Updated final answers
+  ce94c9f (HEAD -> master, origin/master, origin/HEAD) HEAD@{1}: commit: Updated final answers
+  c14b34b (origin/development, development) HEAD@{2}: checkout: moving from development to master
+  c14b34b (origin/development, development) HEAD@{3}: checkout: moving from master to development
+  c14b34b (origin/development, development) HEAD@{4}: checkout: moving from development to master
+  c14b34b (origin/development, development) HEAD@{5}: checkout: moving from master to development
+  c14b34b (origin/development, development) refs/remotes/origin/master@{1}: update by push
+merge mistake: c14b34b (origin/development, development) refs/heads/master@{1}: merge development: Fast-forward
+merge mistake: c14b34b (origin/development, development) HEAD@{6}: merge development: Fast-forward
+  8853402 HEAD@{7}: checkout: moving from development to master
+  c14b34b (origin/development, development) refs/remotes/origin/development@{0}: update by push
+  c14b34b (origin/development, development) refs/heads/development@{0}: commit: Updated answers.txt
+  c14b34b (origin/development, development) HEAD@{8}: commit: Updated answers.txt
+  d6d9842 refs/remotes/origin/development@{1}: update by push
+  d6d9842 refs/heads/development@{1}: commit: Reset armor in Main.cpp
+  d6d9842 HEAD@{9}: commit: Reset armor in Main.cpp
+  75cd3e8 refs/remotes/origin/development@{2}: update by push
+  75cd3e8 refs/heads/development@{2}: commit: Added LightSaber effects
+  75cd3e8 HEAD@{10}: commit: Added LightSaber effects
+  cfadc71 refs/remotes/origin/development@{3}: update by push
+  cfadc71 refs/heads/development@{3}: commit: Implimented CrazyRandomSword
+  cfadc71 HEAD@{11}: commit: Implimented CrazyRandomSword
+  2f3a4d5 refs/remotes/origin/development@{4}: update by push
+  2f3a4d5 refs/heads/development@{4}: commit: Updated main with hammer functionality
+  2f3a4d5 HEAD@{12}: commit: Updated main with hammer functionality
+  b2af7ac refs/remotes/origin/development@{5}: update by push
+  b2af7ac refs/heads/development@{5}: commit: Created different weapons, updated simple hammer
+  b2af7ac HEAD@{13}: commit: Created different weapons, updated simple hammer
+  8853402 HEAD@{14}: checkout: moving from master to development
+  8853402 HEAD@{15}: checkout: moving from development to master
+  8853402 HEAD@{16}: checkout: moving from master to development
+  8853402 HEAD@{17}: checkout: moving from development to master
+  8853402 HEAD@{18}: checkout: moving from master to development
+  8853402 refs/heads/development@{6}: branch: Created from master
+  8853402 refs/heads/master@{2}: commit: Updated answers.txt
+  8853402 HEAD@{19}: commit: Updated answers.txt
+  35c759f refs/remotes/origin/master@{2}: update by push
+  35c759f refs/heads/master@{3}: pull --no-rebase --progress origin: Merge made by the 'recursive' strategy.
+  35c759f HEAD@{20}: pull --no-rebase --progress origin: Merge made by the 'recursive' strategy.
+  bacd528 refs/heads/master@{4}: commit: Created answers.txt
+  bacd528 HEAD@{21}: commit: Created answers.txt
+  08324a7 refs/remotes/origin/master@{3}: fetch --progress --prune origin: fast-forward
+  8bb01f9 refs/remotes/origin/master@{4}: update by push
+  8bb01f9 refs/heads/master@{5}: commit: Updated with output from "git status" commant
+  8bb01f9 HEAD@{22}: commit: Updated with output from "git status" commant
+  3d373c9 (upstream/master) refs/remotes/upstream/master@{0}: fetch --progress --prune upstream: storing head
+  ea0bd71 refs/remotes/origin/master@{5}: update by push
+  ea0bd71 refs/heads/master@{6}: commit: Update to README
+  ea0bd71 HEAD@{23}: commit: Update to README
+  3d373c9 (upstream/master) refs/heads/master@{7}: clone: from https://github.com/Purghatory/Assignment1.git
+  3d373c9 (upstream/master) refs/remotes/origin/HEAD@{0}: clone: from https://github.com/Purghatory/Assignment1.git
+  3d373c9 (upstream/master) HEAD@{24}: clone: from https://github.com/Purghatory/Assignment1.git
